@@ -3,7 +3,8 @@ import requests
 import json
 import csv
 
-api_key = 'x7-Y6Xx3bYocGlXvipR-fXVgVDpxzuAEyLQN5ufLJdq5LiLxxP12YwYMMy7EUL3y91SPrGQIGRkUdVgnd_ZaOxLw3fb4WD4sPocqBTtaGDXNYWxIzMKHfzXkkP2XXXYx'
+
+api_key = 'Enter Here'
 headers = {'Authorization': 'Bearer %s' % api_key}
 url = 'https://api.yelp.com/v3/businesses/search'
 params = {'term':'restaurants','location':'San Francisco','radius':1000}
